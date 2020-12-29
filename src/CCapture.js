@@ -618,6 +618,7 @@ function CCapture( settings ) {
 	_timeDisplay.style.padding = '5px'
 	_timeDisplay.style.color = 'red';
 	_timeDisplay.style.zIndex = 100000
+	_timeDisplay.setAttribute("id", "timedisplay");
 	if( _settings.display ) document.body.appendChild( _timeDisplay );
 
 	var canvasMotionBlur = document.createElement( 'canvas' );
